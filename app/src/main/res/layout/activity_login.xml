@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="50dp"
+android:gravity="center"
+tools:context=".LoginActivity">
+
+<EditText
+    android:id="@+id/txtemail"
+    android:hint="INGRESE EMAIL"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+<EditText
+    android:id="@+id/txtpassword"
+    android:hint="INGRESE PASSWORD"
+    android:inputType="textPassword"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+<Button
+    android:id="@+id/btnlogin"
+    android:text="LOGIN"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+<TextView
+    android:id="@+id/btnregistro"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="REGISTRATE" />
+</LinearLayout>
